@@ -39,7 +39,7 @@ jobs:
       - name: Test Node.js service with curl
         run: |
           SERVICE_URL="http://localhost:3000"
-          EXPECTED_RESPONSE="Hello, World!"
+          EXPECTED_RESPONSE="Hello, World!!"
           RESPONSE=$(curl -sSf $SERVICE_URL)
           if [ "$RESPONSE" == "$EXPECTED_RESPONSE" ]; then
               echo "Test Passed: Service returned expected response."
