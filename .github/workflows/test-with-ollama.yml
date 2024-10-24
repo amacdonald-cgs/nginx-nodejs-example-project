@@ -10,7 +10,7 @@ jobs:
     - name: Run ollama
       run: |
         # ollama serve &
-        ollama pull phi3:mini
+        ollama pull llama3.2
     - name: Call ollama API
       run: |
         curl -d '{"model": "phi3:mini", "stream": false, "prompt":"Whatever I say, asnwer with Yes"}' http://localhost:11434/api/generate
