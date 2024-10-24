@@ -1,4 +1,4 @@
-# Nginx Node.js Example Project
+# Github Actions launching docker compose and Nginx Node.js Example Project
 
 [![Docker Compose Test](https://github.com/akarsh/nginx-nodejs-example-project/actions/workflows/docker-compose-test.yml/badge.svg?branch=main)](https://github.com/akarsh/nginx-nodejs-example-project/actions/workflows/docker-compose-test.yml) [![Test with Background Server](https://github.com/akarsh/nginx-nodejs-example-project/actions/workflows/test-with-background-server.yml/badge.svg)](https://github.com/akarsh/nginx-nodejs-example-project/actions/workflows/test-with-background-server.yml)
 
